@@ -2,10 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
-## 1. takes a matrix as an argument
-## 2. gets the value of that matrix
-## 3. solves the matrix to get the inverse
-## 4. set the inverse of the matrix so it can be easily retrieved
+## takes a matrix as an argument
+## gets the value of that matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
