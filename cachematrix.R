@@ -1,9 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Programming Assignment 2
 
-## Write a short comment describing this function
-## takes a matrix as an argument
-## gets the value of that matrix
+## Takes a matrix as an argument and 
+## inv set as NULL creates a open slot for the inverse to be stored.
+## The list allows set, get, setinv, and getinv to be called for 
+## whatever matrix is the input of the function.
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
@@ -19,9 +19,9 @@ makeCacheMatrix <- function(x = matrix()) {
     
 }
 
-
-## Checks to see if the inverse has been calculated
-## If not, it computes the inverse and stores it
+## This function computes the inverse of the matrix above.
+## It checks to see if the inverse has been calculated and
+## if not, it computes the inverse and stores it.
 
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
